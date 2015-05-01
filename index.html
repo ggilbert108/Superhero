@@ -2,30 +2,43 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>VBS 2015</title>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-		<link rel="stylesheet" href="style.css"></link>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+		<script src="hero.js"></script>
 	</head>
 	<body>
-		<div class="container-fluid">
-			<div>
-				<div class="page-header text-center">
-					<h1 class="inline">VBS</h1> 
-						<img class="inline" id="bible-img" src="bible.jpg" width="100" height="100">
-					<h1 class="inline">Tribune</h1>					
-				</div>
-				<div class="row">
-					<div class="col-md-12">
-						<p>Date</p>
-					</div>
-				</div>
-				<div class="row">
-					<h2>Calling All Superheroes</h2>
-				</div>
-			</div>	
+		<div class="info-bar">
+			<h1>Calling all Superheros!</h1>
 		</div>
+		<table>
+			<tr>
+				<td>	
+					<div class="main">
+						<h3>See what we'll be learning!</h3>
+						<div class="img-select">
+							<img id="day_img" src="day1.png">
+							<button id="next_button">Next day</button>
+						</div>
+					</div>
+				</td>
+				<td>
+					<div class="address">
+						<img src="herohq.jpg">
+						<h2>HERO HEADQUARTERS</h2>
+						<p>Johnson Street Church of Christ-3401 Johnson Street</p>
+						<p>Greenville TX 75401</p>
+						<p>903-455-3710</p>
+						<p>June 22-26 9AM to 12PM</p>
+						<p>Ages 4 through 6th grade</p>
+					</div>
+				</td>
+			</tr>
+		</table>
 	</body>	
+	<img class="hidden" src = "day1.png" id="day_1_img">
+	<img class="hidden" src = "day2.png" id="day_2_img">
+	<img class="hidden" src = "day3.png" id="day_3_img">
+	<img class="hidden" src = "day4.png" id="day_4_img">
+	<img class="hidden" src = "day5.png" id="day_5_img">
 </html>
