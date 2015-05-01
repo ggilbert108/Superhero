@@ -43,3 +43,7 @@ h3{
 #day_img{
 	width: 600px;
 }
+
+button:disabled{
+	color:black;
+}
