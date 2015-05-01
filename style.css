@@ -1,0 +1,41 @@
+body{
+	display: table;
+	background-color: #f5f5f5;
+}
+
+h1{
+	font-family: Old English Text MT;
+	font-size: 72pt;
+}
+
+h2{
+	font-size: 50pt;
+}
+
+p, h2{
+	font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+.page-header{
+	outline-bottom: 1px solid orange;
+	margin-bottom: 0px;
+
+}
+
+.inline{
+	display: inline;
+}
+
+#bible-img
+{
+	position: relative;
+	top: -25px;
+}
